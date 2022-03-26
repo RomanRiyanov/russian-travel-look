@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 768px) {
-    .container__paragraph {
+    .place__container {
         gap: 25px;
     }
 }
 
 @media (max-width: 500px) {
-    .container__paragraph {
+    .place__container {
         padding: 0 16px;
     }
 }

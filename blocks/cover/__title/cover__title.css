@@ -14,15 +14,13 @@
 
 @media (min-width: 1280px) {
     .cover__title {
-        margin: 245px 312x 0;
-        /*max-width: 250px;*/
+        margin: 245px 312px 0;
     }
 }
 
 @media (max-width: 768px) {
     .cover__title {
-        margin: 115px 104x 0;
-        /*max-width: 250px;*/
+        margin: 115px 104px 0;
     }
 }
 
