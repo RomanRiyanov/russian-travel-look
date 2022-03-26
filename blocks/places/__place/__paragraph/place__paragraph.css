@@ -2,10 +2,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     margin: 0;
 }
 
-.place__paragraph:first-child{
-    padding-bottom: 27px;
+@media (max-width: 768px) {
+    .place__paragraph {
+        line-height: 26px;
+        font-size: 16px;
+    }
 }
+

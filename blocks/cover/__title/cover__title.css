@@ -11,3 +11,26 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
+@media (min-width: 1280px) {
+    .cover__title {
+        margin: 245px 312x 0;
+        /*max-width: 250px;*/
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__title {
+        margin: 115px 104x 0;
+        /*max-width: 250px;*/
+    }
+}
+
+@media (max-width: 500px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 33px 16px 0;
+        max-width: 250px;
+    }
+}

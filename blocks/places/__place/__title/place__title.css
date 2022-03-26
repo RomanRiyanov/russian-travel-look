@@ -13,3 +13,9 @@
         line-height: 46px;
     }
 }
+
+@media (max-width: 500px) {
+    .place__title {
+        padding: 0 16px;
+    }
+}
