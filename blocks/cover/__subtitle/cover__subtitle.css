@@ -4,20 +4,28 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin: 32px 0 195px 0;
-    padding: 0;
+    margin: 32px auto 195px;
+    padding: 0 auto;
     max-width: 360px;
-    z-index: 2;
+    position: relative;
 }
 
-
-
-@media (max-width: 320px) {
+@media (min-width: 1280px) {
     .cover__subtitle {
-        font-size: 14px;
-        line-height: 16px;
-        margin: 16px 16px 33px 0;
-        max-width: 265px;
+        margin: 32px auto 245px;
     }
 }
 
+@media (max-width: 768px) {
+    .cover__subtitle {
+        margin: 32px auto 115px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px auto 33px;
+    }
+}

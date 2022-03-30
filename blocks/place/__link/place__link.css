@@ -1,0 +1,41 @@
+.place__link {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    transition: opacity 0.5s;
+    align-self: flex-end;
+}
+
+.place__link::before {
+    content: "url";
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin: 0;
+    padding: 0;
+}
+
+.place__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media (max-width: 500px) {
+    .place__link {
+        margin: 0 0 0 16px;
+        align-self: flex-start;
+        justify-self: flex-start;
+        margin-top: 22px;
+    }
+}

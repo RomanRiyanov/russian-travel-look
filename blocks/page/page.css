@@ -8,4 +8,6 @@
     text-rendering: optimizeLegibility;
     color: #FFFFFF;
     background-color: #2A2C2F;
+    min-width: 320px;
+    box-sizing: border-box;
 }
