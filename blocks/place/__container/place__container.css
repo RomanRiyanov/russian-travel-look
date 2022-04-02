@@ -11,7 +11,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .place__container {
         padding: 0 16px;
     }

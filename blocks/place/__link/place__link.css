@@ -31,7 +31,7 @@
     opacity: 0.8;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .place__link {
         margin: 0 0 0 16px;
         align-self: flex-start;

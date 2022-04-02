@@ -1,38 +1,6 @@
 .lead__image {
-    max-width: 928px;
-    max-height: 580px;
-    object-fit: cover;
-    padding: 56px 48px 0 48px;
     width: 100%;
+    object-fit: cover;
 }
 
-@media (min-width: 1280px) {
-    .lead__image {
-        max-width: 984px;
-        max-height: 615px;
-        padding: 64px 148px 0 148px;
-        }
-    }
-
-@media (max-width: 1024px) {
-    .lead__image {
-        padding: 56px 0 0 0;
-        }
-    }
-
-@media (max-width: 768px) {
-    .lead__image {
-        max-width: 768px;
-        max-height: 480px;
-        padding: 56px 0 0 0;
-        }
-    }
-
-@media (max-width: 320px) {
-    .lead__image {
-        max-width: 320px;
-        max-height: 200px;
-        padding: 40px 0 0 0;
-        }
-    }
-           
+     

@@ -10,4 +10,6 @@
     background-color: #2A2C2F;
     min-width: 320px;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }

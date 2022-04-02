@@ -6,4 +6,11 @@
     margin: 40px 0 0 0;
     padding: 0;
     text-align: left;
+    max-width: 690px;
+}
+
+@media (max-width: 768px) {
+    .intro__text {
+        max-width: 720px;
+    }
 }

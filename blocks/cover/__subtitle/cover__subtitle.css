@@ -4,28 +4,16 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin: 32px auto 195px;
-    padding: 0 auto;
+    padding: 0;
+    margin: 32px 0 0 0;
     max-width: 360px;
     position: relative;
-}
-
-@media (min-width: 1280px) {
-    .cover__subtitle {
-        margin: 32px auto 245px;
-    }
-}
-
-@media (max-width: 768px) {
-    .cover__subtitle {
-        margin: 32px auto 115px;
-    }
 }
 
 @media (max-width: 500px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        margin: 16px auto 33px;
+        margin-top: 16px;
     }
 }

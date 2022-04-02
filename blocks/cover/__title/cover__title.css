@@ -4,29 +4,23 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    margin: 195px auto 0;
-    padding: 0 auto;
+    padding-top: 195px;
+    margin: 0;
+    padding: 0;
     max-width: 560px;
     position: relative;
 }
 
-@media (min-width: 1280px) {
-    .cover__title {
-        margin: 245px auto 0;
-    }
-}
-
-@media (max-width: 768px) {
-    .cover__title {
-        margin: 115px auto 0;
-    }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 33px auto 0;
-        max-width: 250px;
+        max-width: 288px;
     }
 }
+
+/* @media (max-width: 500px) {
+    .cover__title {
+        max-width: 288px;
+    }
+} */
