@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .places {
         padding-top: 64px;
     }
